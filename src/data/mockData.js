@@ -160,7 +160,7 @@ export const studyHeatmap = (() => {
 export const leaderboard = [
   { rank: 1, name: 'Sophia Chen', avatar: '👩‍🔬', score: 96.2, xp: 32000, level: 32, change: 0 },
   { rank: 2, name: 'Marcus Johnson', avatar: '👨‍💻', score: 94.5, xp: 30500, level: 30, change: 1 },
-  { rank: 3, name: 'Alex Rivera', avatar: '🧑‍🎓', score: 89.1, xp: 27500, level: 27, change: -1, isCurrentUser: true },
+  { rank: 3, name: studentProfile.name, avatar: '🧑‍🎓', score: 89.1, xp: 27500, level: 27, change: -1, isCurrentUser: true },
   { rank: 4, name: 'Priya Patel', avatar: '👩‍🎓', score: 88.7, xp: 26800, level: 26, change: 2 },
   { rank: 5, name: 'James Williams', avatar: '👨‍🎓', score: 87.3, xp: 25500, level: 25, change: -1 },
   { rank: 6, name: 'Aisha Khan', avatar: '👩‍💼', score: 86.9, xp: 25200, level: 25, change: 0 },
